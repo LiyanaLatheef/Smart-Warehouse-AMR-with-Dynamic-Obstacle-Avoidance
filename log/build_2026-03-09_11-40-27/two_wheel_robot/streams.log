@@ -1,0 +1,20 @@
+[0.540s] Invoking command in '/home/liyana/digital_twin_ws/src/two_wheel_robot': PYTHONPATH=/home/liyana/digital_twin_ws/build/two_wheel_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liyana/digital_twin_ws/install/two_wheel_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/two_wheel_robot build --build-base /home/liyana/digital_twin_ws/build/two_wheel_robot/build install --record /home/liyana/digital_twin_ws/build/two_wheel_robot/install.log --single-version-externally-managed install_data
+[0.684s] running egg_info
+[0.685s] writing ../../build/two_wheel_robot/two_wheel_robot.egg-info/PKG-INFO
+[0.685s] writing dependency_links to ../../build/two_wheel_robot/two_wheel_robot.egg-info/dependency_links.txt
+[0.685s] writing entry points to ../../build/two_wheel_robot/two_wheel_robot.egg-info/entry_points.txt
+[0.685s] writing requirements to ../../build/two_wheel_robot/two_wheel_robot.egg-info/requires.txt
+[0.685s] writing top-level names to ../../build/two_wheel_robot/two_wheel_robot.egg-info/top_level.txt
+[0.687s] reading manifest file '../../build/two_wheel_robot/two_wheel_robot.egg-info/SOURCES.txt'
+[0.687s] writing manifest file '../../build/two_wheel_robot/two_wheel_robot.egg-info/SOURCES.txt'
+[0.687s] running build
+[0.687s] running build_py
+[0.687s] running install
+[0.687s] running install_lib
+[0.688s] running install_data
+[0.688s] running install_egg_info
+[0.689s] removing '/home/liyana/digital_twin_ws/install/two_wheel_robot/lib/python3.10/site-packages/two_wheel_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[0.689s] Copying ../../build/two_wheel_robot/two_wheel_robot.egg-info to /home/liyana/digital_twin_ws/install/two_wheel_robot/lib/python3.10/site-packages/two_wheel_robot-0.0.0-py3.10.egg-info
+[0.690s] running install_scripts
+[0.703s] writing list of installed files to '/home/liyana/digital_twin_ws/build/two_wheel_robot/install.log'
+[0.730s] Invoked command in '/home/liyana/digital_twin_ws/src/two_wheel_robot' returned '0': PYTHONPATH=/home/liyana/digital_twin_ws/build/two_wheel_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liyana/digital_twin_ws/install/two_wheel_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/two_wheel_robot build --build-base /home/liyana/digital_twin_ws/build/two_wheel_robot/build install --record /home/liyana/digital_twin_ws/build/two_wheel_robot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,106 @@
+<robot name="two_wheel_robot">
+
+<!-- BASE LINK -->
+<link name="base_link">
+  <visual>
+    <geometry>
+      <box size="0.25 0.20 0.05"/>
+    </geometry>
+  </visual>
+</link>
+
+<!-- LEFT WHEEL -->
+<link name="left_wheel">
+  <visual>
+    <geometry>
+      <cylinder radius="0.035" length="0.02"/>
+    </geometry>
+  </visual>
+</link>
+
+<!-- RIGHT WHEEL -->
+<link name="right_wheel">
+  <visual>
+    <geometry>
+      <cylinder radius="0.035" length="0.02"/>
+    </geometry>
+  </visual>
+</link>
+
+<!-- CASTER WHEEL -->
+<link name="caster_wheel">
+  <visual>
+    <geometry>
+      <sphere radius="0.02"/>
+    </geometry>
+  </visual>
+</link>
+
+<!-- LIDAR -->
+<link name="lidar_link">
+  <visual>
+    <geometry>
+      <cylinder radius="0.03" length="0.05"/>
+    </geometry>
+  </visual>
+</link>
+
+<!-- CAMERA -->
+<link name="camera_link">
+  <visual>
+    <geometry>
+      <box size="0.03 0.03 0.03"/>
+    </geometry>
+  </visual>
+</link>
+
+<!-- RASPBERRY PI -->
+<link name="raspberry_pi">
+  <visual>
+    <geometry>
+      <box size="0.08 0.05 0.02"/>
+    </geometry>
+  </visual>
+</link>
+
+<!-- JOINTS -->
+
+<joint name="left_wheel_joint" type="continuous">
+  <parent link="base_link"/>
+  <child link="left_wheel"/>
+  <origin xyz="0 0.11 -0.02" rpy="0 1.57 0"/>
+  <axis xyz="0 1 0"/>
+</joint>
+
+<joint name="right_wheel_joint" type="continuous">
+  <parent link="base_link"/>
+  <child link="right_wheel"/>
+  <origin xyz="0 -0.11 -0.02" rpy="0 1.57 0"/>
+  <axis xyz="0 1 0"/>
+</joint>
+
+<joint name="caster_joint" type="fixed">
+  <parent link="base_link"/>
+  <child link="caster_wheel"/>
+  <origin xyz="-0.1 0 -0.03"/>
+</joint>
+
+<joint name="lidar_joint" type="fixed">
+  <parent link="base_link"/>
+  <child link="lidar_link"/>
+  <origin xyz="0.1 0 0.05"/>
+</joint>
+
+<joint name="camera_joint" type="fixed">
+  <parent link="base_link"/>
+  <child link="camera_link"/>
+  <origin xyz="0.12 0 0.07"/>
+</joint>
+
+<joint name="pi_joint" type="fixed">
+  <parent link="base_link"/>
+  <child link="raspberry_pi"/>
+  <origin xyz="0 0 0.05"/>
+</joint>
+
+</robot>

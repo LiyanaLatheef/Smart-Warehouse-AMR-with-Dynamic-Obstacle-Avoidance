@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/two_wheel_robot/two_wheel_robot.egg-info
+writing ../../build/two_wheel_robot/two_wheel_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/two_wheel_robot/two_wheel_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/two_wheel_robot/two_wheel_robot.egg-info/entry_points.txt
+writing requirements to ../../build/two_wheel_robot/two_wheel_robot.egg-info/requires.txt
+writing top-level names to ../../build/two_wheel_robot/two_wheel_robot.egg-info/top_level.txt
+writing manifest file '../../build/two_wheel_robot/two_wheel_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/two_wheel_robot/two_wheel_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/two_wheel_robot/two_wheel_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/liyana/digital_twin_ws/build/two_wheel_robot/build
+creating /home/liyana/digital_twin_ws/build/two_wheel_robot/build/lib
+creating /home/liyana/digital_twin_ws/build/two_wheel_robot/build/lib/two_wheel_robot
+copying two_wheel_robot/__init__.py -> /home/liyana/digital_twin_ws/build/two_wheel_robot/build/lib/two_wheel_robot
+running install
+running install_lib
+creating /home/liyana/digital_twin_ws/install/two_wheel_robot/lib/python3.10/site-packages/two_wheel_robot
+copying /home/liyana/digital_twin_ws/build/two_wheel_robot/build/lib/two_wheel_robot/__init__.py -> /home/liyana/digital_twin_ws/install/two_wheel_robot/lib/python3.10/site-packages/two_wheel_robot
+byte-compiling /home/liyana/digital_twin_ws/install/two_wheel_robot/lib/python3.10/site-packages/two_wheel_robot/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/liyana/digital_twin_ws/install/two_wheel_robot/share/ament_index
+creating /home/liyana/digital_twin_ws/install/two_wheel_robot/share/ament_index/resource_index
+creating /home/liyana/digital_twin_ws/install/two_wheel_robot/share/ament_index/resource_index/packages
+copying resource/two_wheel_robot -> /home/liyana/digital_twin_ws/install/two_wheel_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/liyana/digital_twin_ws/install/two_wheel_robot/share/two_wheel_robot
+running install_egg_info
+Copying ../../build/two_wheel_robot/two_wheel_robot.egg-info to /home/liyana/digital_twin_ws/install/two_wheel_robot/lib/python3.10/site-packages/two_wheel_robot-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/liyana/digital_twin_ws/build/two_wheel_robot/install.log'

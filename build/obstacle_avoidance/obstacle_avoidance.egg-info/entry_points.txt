@@ -1,0 +1,5 @@
+[console_scripts]
+avoid = obstacle_avoidance.avoid:main
+vel_smoother = obstacle_avoidance.vel_smoother:main
+waypoint_nav = obstacle_avoidance.waypoint_nav:main
+

@@ -1,0 +1,21 @@
+[0.794s] Invoking command in '/home/liyana/digital_twin_ws/src/obstacle_avoidance': PYTHONPATH=/home/liyana/digital_twin_ws/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liyana/digital_twin_ws/install/obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_avoidance build --build-base /home/liyana/digital_twin_ws/build/obstacle_avoidance/build install --record /home/liyana/digital_twin_ws/build/obstacle_avoidance/install.log --single-version-externally-managed install_data
+[0.952s] running egg_info
+[0.952s] writing ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/PKG-INFO
+[0.952s] writing dependency_links to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/dependency_links.txt
+[0.952s] writing entry points to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/entry_points.txt
+[0.952s] writing requirements to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/requires.txt
+[0.953s] writing top-level names to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/top_level.txt
+[0.954s] reading manifest file '../../build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'
+[0.955s] writing manifest file '../../build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'
+[0.955s] running build
+[0.955s] running build_py
+[0.955s] running install
+[0.955s] running install_lib
+[0.956s] running install_data
+[0.956s] running install_egg_info
+[0.957s] removing '/home/liyana/digital_twin_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance-0.0.0-py3.10.egg-info' (and everything under it)
+[0.958s] Copying ../../build/obstacle_avoidance/obstacle_avoidance.egg-info to /home/liyana/digital_twin_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance-0.0.0-py3.10.egg-info
+[0.958s] running install_scripts
+[0.976s] Installing avoid script to /home/liyana/digital_twin_ws/install/obstacle_avoidance/lib/obstacle_avoidance
+[0.976s] writing list of installed files to '/home/liyana/digital_twin_ws/build/obstacle_avoidance/install.log'
+[1.000s] Invoked command in '/home/liyana/digital_twin_ws/src/obstacle_avoidance' returned '0': PYTHONPATH=/home/liyana/digital_twin_ws/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liyana/digital_twin_ws/install/obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_avoidance build --build-base /home/liyana/digital_twin_ws/build/obstacle_avoidance/build install --record /home/liyana/digital_twin_ws/build/obstacle_avoidance/install.log --single-version-externally-managed install_data
