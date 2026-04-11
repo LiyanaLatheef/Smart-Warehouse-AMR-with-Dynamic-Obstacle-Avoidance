@@ -78,27 +78,27 @@ This project implements a **Smart Warehouse AMR** capable of:
 
 ### Gazebo Simulation
 <!-- Replace with your actual screenshot -->
-![Gazebo Simulation](docs/images/gazebo_simulation.png)
+![Gazebo Simulation](docs/gazebospwn.png)
 *Robot navigating warehouse in Gazebo 11 with LiDAR scan visible*
 
 ### RViz Visualization
 <!-- Replace with your actual screenshot -->
-![RViz LiDAR](docs/images/rviz_laserscan.png)
+![RViz LiDAR](docs/rviz_laserscan.png)
 *Live LiDAR scan and robot model in RViz2*
 
 ### SLAM Map
 <!-- Replace with your actual screenshot -->
-![SLAM Map](docs/images/slam_map.png)
+![SLAM Map](docs/slam_ma.png)
 *2D occupancy grid map generated using slam_toolbox*
 
 ### Nav2 Navigation
 <!-- Replace with your actual screenshot -->
-![Nav2](docs/images/nav2_map.png)
+![Nav2](docs/nav2_map.png)
 *Robot localizing and navigating using Nav2 with saved warehouse map*
 
 ### Physical Robot
 <!-- Replace with your actual photo -->
-![Physical Robot](docs/images/real_robot.jpg)
+![Physical Robot](docs/physical_robot.jpg)
 *Physical AMR with RPLiDAR A1, Arduino Mega, L298N motor driver on circular chassis*
 
 ---
