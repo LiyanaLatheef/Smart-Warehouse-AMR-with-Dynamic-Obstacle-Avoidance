@@ -98,7 +98,7 @@ This project implements a **Smart Warehouse AMR** capable of:
 
 ### Physical Robot
 <!-- Replace with your actual photo -->
-![Physical Robot](docs/physical_robot.jpg)
+![Physical Robot](docs/physical_robot.jpeg)
 *Physical AMR with RPLiDAR A1, Arduino Mega, L298N motor driver on circular chassis*
 
 ---
