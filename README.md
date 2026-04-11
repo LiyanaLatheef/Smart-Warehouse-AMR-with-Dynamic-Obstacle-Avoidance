@@ -96,6 +96,11 @@ This project implements a **Smart Warehouse AMR** capable of:
 ![Nav2](docs/nav2_map.png)
 *Robot localizing and navigating using Nav2 with saved warehouse map*
 
+### Circuit Diagram
+<!-- Replace with your actual photo -->
+![Physical Robot](docs/diagram.jpeg)
+
+
 ### Physical Robot
 <!-- Replace with your actual photo -->
 ![Physical Robot](docs/physical_robot.jpeg)
