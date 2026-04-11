@@ -17,6 +17,41 @@
 
 ---
 
+## ⚡ Quick Start
+
+### 🖥️ Simulation (One Command)
+```bash
+git clone https://github.com/LiyanaLatheef/Smart-Warehouse-AMR-with-Dynamic-Obstacle-Avoidance.git
+cd Smart-Warehouse-AMR-with-Dynamic-Obstacle-Avoidance
+colcon build && source install/setup.bash
+ros2 launch two_wheel_robot warehouse_nav2.launch.py
+```
+This automatically launches Gazebo → spawns robot → starts Nav2 → opens RViz!
+
+Then in RViz:
+1. Fixed Frame → `map`
+2. Add Map → `/map` → Durability: `Transient Local`
+3. Click **2D Pose Estimate** → click on map → drag
+4. Click **2D Goal Pose** → click destination → robot navigates! 🤖
+
+---
+
+### 🤖 Physical Robot (One Command)
+```bash
+# Copy script to RPi
+scp start_robot.sh pi@<RPi-IP>:~/start_robot.sh
+
+# SSH into RPi
+ssh pi@<RPi-IP>
+
+# Run everything with one command
+chmod +x ~/start_robot.sh
+cd ~/robot_ws && ~/start_robot.sh
+```
+This automatically starts LiDAR → Serial Bridge → Velocity Smoother → Obstacle Avoidance!
+
+---
+
 ## 📌 Project Overview
 
 This project implements a **Smart Warehouse AMR** capable of:
