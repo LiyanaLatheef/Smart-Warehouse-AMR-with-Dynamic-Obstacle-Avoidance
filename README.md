@@ -454,18 +454,6 @@ The warehouse map was generated using `slam_toolbox` in async mapping mode.
 | Nafeesath Liyana Latheef | 23BCARI117 | Simulation, Hardware Integration, ROS2 |
 | Muhammed Mishal | - | Hardware Assembly, Testing |
 
-**Internal Guide:** Rakesh K K  
-**Institution:** Yenepoya Institute of Arts, Science, Commerce and Management  
-**Program:** BCA (Artificial Intelligence, Machine Learning, Robotics & IoT)
 
----
 
-## 📄 License
 
-This project is licensed under the MIT License.
-
----
-
-<div align="center">
-Made with ❤️ at Yenepoya Institute | BCA AIML Robotics 2026
-</div>
